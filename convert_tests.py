@@ -11,5 +11,5 @@ class Lab7unittests(unittest.TestCase):
     def test_2(self):
         result = convert.str_to_float("Hello")
         check = None
-        self.assertEqual
+        self.assertEqual(check, result)
 
