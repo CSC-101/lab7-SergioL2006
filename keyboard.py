@@ -16,8 +16,6 @@ def gathered_numbers() -> float:
         elif x == 'done':
             return holder
 
-    return holder
-
 if __name__ == '__main__':
     print("Enter a numbers, type 'done' to stop")
-    print(gathered_numbers())
+    print("Total is: ", gathered_numbers())
